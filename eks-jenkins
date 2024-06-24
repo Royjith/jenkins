@@ -2,8 +2,8 @@
 pipeline {
     agent any
     environment {
-        AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
-        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+        AWS_ACCESS_KEY_ID = AKIAQ3EGSMHK77SL5FVZ
+        AWS_SECRET_ACCESS_KEY = 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
         TF_VAR_region = "us-west-2"
         TF_VAR_eks_cluster_role_name = "my-eks-cluster-role"
         TF_VAR_eks_cluster_policy_name = "my-eks-cluster-policy"
