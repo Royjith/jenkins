@@ -9,7 +9,7 @@ pipeline {
         TF_VAR_eks_cluster_policy_name = "my-eks-cluster-policy"
         TF_VAR_vpc_cidr_block = "10.0.0.0/16"
         TF_VAR_subnet_count = 2
-        TF_VAR_availability_zones = ["us-west-2a", "us-west-2b"]
+        TF_VAR_availability_zones = ['us-west-2a', us-west-2b']
     }
     stages {
         stage("Terraform Init") {
